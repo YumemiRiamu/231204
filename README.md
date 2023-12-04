@@ -124,4 +124,4 @@ namespace winrt::BgLabelControlApp::implementation
 ```
 </br>
 실행 화면</br>
-![image](./1.PNG)</br>
+![image].(./1.PNG)</br>
