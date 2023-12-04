@@ -1,4 +1,5 @@
 # 231204 비주얼프로그래밍 실습시험 1 BgLabelControl </br>
+20191276 컴퓨터공학과 양용석
 
 1. BgLabelControl.idl에서 DependencyProperty 형식의 읽기 전용 정적 속성을 선언</br>
 ```
@@ -124,4 +125,4 @@ namespace winrt::BgLabelControlApp::implementation
 ```
 </br>
 실행 화면</br>
-![image].(./1.PNG)</br>
+![Image description](./1.PNG)</br>
