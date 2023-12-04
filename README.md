@@ -15,6 +15,7 @@ namespace BgLabelControlApp
 ```
 </br>
 2. BgLabelControl.h에서 Label 및 LabelProperty 속성을 구현, OnLabelChanged라는 정적 이벤트 처리기를 추가, LabelProperty에 대한 지원 필드를 저장하는 프라이빗 멤버를 추가</br>
+
 ```
 // BgLabelControl.h
 #pragma once
@@ -53,6 +54,7 @@ namespace winrt::BgLabelControlApp::factory_implementation
 ```
 </br>
 3. BgLabelControl.cpp에서 레이블 텍스트를 설정하는 Label 이라는 Dependency Property를 정의</br>
+
 ```
 // BgLabelControl.cpp
 #include "pch.h"
@@ -85,6 +87,7 @@ namespace winrt::BgLabelControlApp::implementation
 ```
 </br>
 4. Generic.xaml에서 BgLabelControl 컨트롤 UI를 정의</br>
+
 ```
 <!-- \Themes\Generic.xaml -->
 <ResourceDictionary
@@ -107,11 +110,13 @@ namespace winrt::BgLabelControlApp::implementation
 ```
 </br>
 5. MainWindow.xaml에서 Button부분 다음에 BgLabelControl 인스턴스 추가. (초록색 배경에 Label은 I Love ANU 로 설정)</br>
+
 ```
 <local:BgLabelControl Background="Green" Label="I Love ANU"/>
 ```
 </br>
 6. MainWindow.h에 include문 추가</br>
+
 ```
 
 #include "BgLabelControl.h"
